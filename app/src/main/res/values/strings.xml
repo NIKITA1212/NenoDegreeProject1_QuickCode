@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quick Code</string>
+    <string name="description">Quick code curates new free courses every day. Find free courses on web development, mobile development, big data, machine learning, database, data science, chatbot, cryptocurrency and more.</string>
+    <string name="website">www.quiclcode.co</string>
+    <string name="contact">+1 (480) 758 0105</string>
+    <string name="email">hello@quickcode.co</string>
+    <string name="address">5038 S Hardy Drive, \n Phoenix, Arizona 85282</string>
+</resources>
