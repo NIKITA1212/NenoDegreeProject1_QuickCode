@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -28,7 +33,7 @@
             android:paddingTop="35dp"
             android:paddingLeft="10dp"
             android:text="Quick Code"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
     </LinearLayout>
 
@@ -37,7 +42,7 @@
         android:layout_height="wrap_content"
         android:text="Description"
         android:paddingLeft="15dp"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textStyle="bold"/>
 
     <TextView
@@ -47,7 +52,7 @@
         android:paddingLeft="15dp"
         android:paddingTop="0dp"
         android:paddingBottom="20dp"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:lineSpacingExtra="8dp"
         android:text="@string/description" />
 
@@ -69,7 +74,7 @@
             android:layout_weight="5"
             android:autoLink="web"
             android:text="@string/website"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
 
     </LinearLayout>
 
@@ -90,7 +95,7 @@
             android:layout_weight="5"
             android:autoLink="phone"
             android:text="@string/contact"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
 
     </LinearLayout>
 
@@ -111,7 +116,7 @@
             android:layout_weight="5"
             android:autoLink="email"
             android:text="@string/email"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
 
     </LinearLayout>
     <LinearLayout
@@ -132,8 +137,9 @@
             android:autoLink="map"
             android:minLines="3"
             android:text="@string/address"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
 
     </LinearLayout>
 
 </LinearLayout>
+</ScrollView>
